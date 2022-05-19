@@ -17,10 +17,12 @@ html{
 .green{
     background-color: green;
     height: 100vh;
+    position: relative;
 }
 .yellow{
     background-color: yellow;
     height: 100vh;
+    position: relative;
 }
 /* colo text */
 .txt-yellow{
@@ -30,7 +32,6 @@ html{
     color: green;
 }
 .side-menu {
-    display: inline-block;
     z-index: 1;
     position: fixed;
     right: 5vh;
@@ -40,7 +41,10 @@ html{
 ul{
     list-style-type: none;
     font-weight: bold;
-}  
+} 
+li{
+    display: inline;
+} 
 .side-menu a{
     width: 40px;
     height: 40px;
@@ -49,18 +53,29 @@ ul{
     background-color: white;
     border-radius: 50%;
     margin: 10px;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
 }
 .shoes{
     overflow-y: hidden;
 }
 .model{
-    top: 70%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    position: absolute;
+    position: relative;
     text-align: center;
     font-size: 35px;
     text-transform: uppercase;
+}
+.shoes::{
+    content: '';
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
 }
 
 
