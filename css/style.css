@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: 'Rubik Mono One', sans-serif;
 }
+html{
+    overflow-y: hidden;
+}
 
 /* backround color */
 .red{
@@ -26,11 +29,29 @@
 .txt-green{
     color: green;
 }
+.side-menu {
+    display: inline-block;
+    z-index: 1;
+    position: fixed;
+    right: 5vh;
+    top: 5vh;
+    
+}
+ul{
+    list-style-type: none;
+    font-weight: bold;
+}  
+.side-menu a{
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    margin: 10px;
+}
 .shoes{
     overflow-y: hidden;
-}
-img{
-    
 }
 .model{
     top: 70%;
