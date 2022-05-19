@@ -31,11 +31,14 @@
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    height: 100px;
-
+    height: 50%;
+    position: relative;
+    top: 34%;
+    left: 50%;
+    transform: translate(-50%,-40%);
 }
 .model{
-    top: 50%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%,-50%);
     position: absolute;
