@@ -26,16 +26,11 @@
 .txt-green{
     color: green;
 }
-.first{
-    background-image: url(/img/01.png);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 50%;
-    position: relative;
-    top: 34%;
-    left: 50%;
-    transform: translate(-50%,-40%);
+.shoes{
+    overflow-y: hidden;
+}
+img{
+    
 }
 .model{
     top: 70%;
@@ -43,7 +38,7 @@
     transform: translate(-50%,-50%);
     position: absolute;
     text-align: center;
-    font-size: 30px;
+    font-size: 35px;
     text-transform: uppercase;
 }
 
